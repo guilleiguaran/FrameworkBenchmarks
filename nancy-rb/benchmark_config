@@ -1,0 +1,43 @@
+{
+  "framework": "nancy-rb",
+  "tests": [{
+    "ruby": {
+      "setup_file": "setup_ruby",
+      "json_url": "/json",
+      "plaintext_url": "/plaintext",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Platform",
+      "database": "None",
+      "framework": "nancy",
+      "language": "Ruby",
+      "orm": "Full",
+      "platform": "Rack",
+      "webserver": "Unicorn",
+      "os": "Linux",
+      "database_os": "Linux",
+      "display_name": "nancy",
+      "notes": "",
+      "versus": "rack-ruby"
+    },
+    "jruby": {
+      "setup_file": "setup_jruby",
+      "json_url": "/json",
+      "plaintext_url": "/plaintext",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Platform",
+      "database": "None",
+      "framework": "nancy",
+      "language": "Ruby",
+      "orm": "Full",
+      "platform": "JRuby",
+      "webserver": "TorqBox",
+      "os": "Linux",
+      "database_os": "Linux",
+      "display_name": "nancy",
+      "notes": "",
+      "versus": "rack-jruby"
+    }
+  }]
+}
